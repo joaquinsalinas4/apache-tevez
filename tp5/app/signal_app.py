@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-signal_app.py - Aplicación de usuario para TP5 SdeC UNC
-Grupo: apache-tevez
-
-Lee el CDD /dev/signal_sensor y sirve los datos via HTTP
-para visualización en tiempo real desde el navegador del host.
-
-Uso:
-    python3 signal_app.py [puerto]
-    
-Abrir en el navegador: http://<ip-de-la-vm>:<puerto>
-"""
-
 import http.server
 import json
 import threading
